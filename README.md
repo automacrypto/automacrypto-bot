@@ -1,2 +1,2 @@
-# automacrypto-bombcrypto-bot
+# automacrypto-bot
 Bot para bombcrypto.
