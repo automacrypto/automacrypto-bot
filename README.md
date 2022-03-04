@@ -1,14 +1,14 @@
 # New captcha update:
 
-### Ta oficialmente terminado!
-### It is done!
-  
+### Totalmente funcional para multi account do Bombcrypto!
+### Fully functional for multiple Bombcrypto accounts!
 
-## Faz a boa pra nois
+
+## Quer nos ajudar a manter e evoluir o bot?
 ## Do the good
 
 ### Smart Chain Wallet(BUSD/BNB/BCOIN):
-#### 0xbd06182D8360FB7AC1B05e871e56c76372510dDf
+#### 0x73f5Ab6bd57942A388249A08BdAD90a7710644A8
 
 ### PIX:
   6ce2b79e-97be-4881-a882-81902e29d7ce
@@ -30,17 +30,7 @@ ser financiado coletivamente. Atualmente eu atualizarei a barra das metas
 manualmente de forma diária, talvez no futuro eu automatize o processo de
 alguma forma.
 
- 
 
-### Paypal:
-[Donate:](https://www.paypal.com/donate?hosted_button_id=JVYSC6ZYCNQQQ)
-https://www.paypal.com/donate?hosted_button_id=JVYSC6ZYCNQQQ
-or
-mpcabete@protonmail.com
-
-## Aviso:
-
-#### Os desenvolvedores do jogo se pronunciaram e agora o uso de auto clickers e o uso de bots é oficialmente PROIBIDO.  Não me responsabilizo por eventuais penalidades sofridas por quem usar o bot, use por sua própria conta e risco.
 
 # Instalação:
 ### Baixe e instale o Python pelo [site](https://www.python.org/downloads/) ou pela [windows store](https://www.microsoft.com/p/python-37/9nj46sx7x90p?activetab=pivot:overviewtab).
@@ -220,7 +210,5 @@ exemplo na pasta “targets” para uma tirada no seu próprio computador:
 ## Curtiu? Dê aquela fortalecida :)
 
 ### Wallet:
-#### 0xbd06182D8360FB7AC1B05e871e56c76372510dDf
-### Paypal:
-[Donate](https://www.paypal.com/donate?hosted_button_id=JVYSC6ZYCNQQQ)
+#### 0x73f5Ab6bd57942A388249A08BdAD90a7710644A8
 
