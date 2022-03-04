@@ -1,18 +1,15 @@
 # New captcha update:
 
 ### Totalmente funcional para multi account do Bombcrypto!
-### Fully functional for multiple Bombcrypto accounts!
 
 
-## Quer nos ajudar a manter e evoluir o bot?
-## Do the good
+## Quer nos ajudar e melhorar o bot?
 
 ### Smart Chain Wallet(BUSD/BNB/BCOIN):
 #### 0x73f5Ab6bd57942A388249A08BdAD90a7710644A8
 
 ### PIX:
-  6ce2b79e-97be-4881-a882-81902e29d7ce
-![pix](https://github.com/mpcabete/bombcrypto-bot/raw/main/readme-images/pix.jpeg)
+![pix](https://github.com/automacrypto/automacrypto-bot/assets/readme/pix.jpeg)
 
   
 # Sobre:
