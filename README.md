@@ -1,18 +1,21 @@
-# New captcha update:
+# Automacrypto Bot
 
-### Totalmente funcional para multi account do Bombcrypto!
-
+Totalmente funcional para multi account do Bombcrypto!
 
 ## Quer nos ajudar e melhorar o bot?
 
 ### Smart Chain Wallet(BUSD/BNB/BCOIN):
-#### 0x73f5Ab6bd57942A388249A08BdAD90a7710644A8
 
-### PIX:
-![pix](https://github.com/automacrypto/automacrypto-bot/blob/main/assets/readme/pix.jpeg)
+`0x73f5Ab6bd57942A388249A08BdAD90a7710644A8`
 
-  
-# Sobre:
+### PIX
+![pix](https://github.com/automacrypto/automacrypto-bot/blob/main/assets/readme/pix.jpeg=250x)
+
+## Milestones
+
+[ ] Autenticação com Usuário e Senha (Schoolarship)
+
+# Sobre
 Este bot tem o seu código aberto, de forma que qualquer pessoa pode vê-lo, fazer uma fork, ou updates.
 
 Desenvolvi esse bot inicialmente para o meu uso pessoal. Eu decidi publica-lo
