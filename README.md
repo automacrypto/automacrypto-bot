@@ -9,7 +9,7 @@
 #### 0x73f5Ab6bd57942A388249A08BdAD90a7710644A8
 
 ### PIX:
-![pix](https://github.com/automacrypto/automacrypto-bot/assets/readme/pix.jpeg)
+![pix](https://github.com/automacrypto/automacrypto-bot/blob/main/assets/readme/pix.jpeg)
 
   
 # Sobre:
