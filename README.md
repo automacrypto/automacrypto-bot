@@ -9,6 +9,7 @@ Totalmente funcional para multi account do Bombcrypto!
 `0x73f5Ab6bd57942A388249A08BdAD90a7710644A8`
 
 ### PIX
+
 ![PicPay](https://github.com/automacrypto/automacrypto-bot/blob/main/assets/readme/pix.jpeg)
 
 ## Milestones
