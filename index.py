@@ -140,7 +140,7 @@ def show(rectangles, img = None):
     cv2.imshow('img',img)
     cv2.waitKey(0)
 
-def clickBtn(img,name=None, timeout=3, threshold = ct['default']):
+def clickBtn(img, name=None, timeout=3, threshold = ct['default']):
     logger(None, progress_indicator=True)
     if not name is None:
         pass
@@ -174,7 +174,7 @@ def printScreen():
     global heightWindow
 
     with mss.mss() as sct:
-        monitor = sct.monitors[1]
+        monitor = sct.monitors[0]
         sct_img = np.array(sct.grab(monitor))
 
         if multiWindow:            
@@ -235,6 +235,7 @@ def clickButtons():
     buttons = positions(images['go-work'], threshold=ct['go_to_work_btn'])
     # print('buttons: {}'.format(len(buttons)))
     for (x, y, w, h) in buttons:
+        logger('moving...')
         moveToWithRandomness(x+(w/2),y+(h/2),1)
         pyautogui.click()
         global hero_clicks
@@ -811,6 +812,7 @@ def main():
         sendHero = False
         idx = 0
         for idx, last in enumerate(windows):
+           
             last["window"].activate()
             leftWindow = last["window"].left
             topWindow = last["window"].top
