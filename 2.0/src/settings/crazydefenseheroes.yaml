@@ -1,0 +1,3 @@
+state:
+  enabled: False
+  loop: infinite

@@ -1,0 +1,85 @@
+state:
+  enabled: true
+  loop: infinite
+
+steps:
+  -
+    name: select_browser
+    log: Selecionando o navegador...
+    enabled: true
+    attempts: 1
+    input:
+      type: window_select
+      header: 'Bombcrypto'
+
+  - name: login_with_scholarship
+    log: Logando com o scholarship...
+    enabled: true
+    attempts: 1
+    input:
+      type: mouse
+      action: left_click
+      target: login_button.png
+
+  - name: select_username_field
+    log: Selecionando o campo username
+    enabled: true
+    attempts: 1
+    input:
+      type: mouse
+      action: left_click
+      target: username_field.png
+
+  - name: typing_username
+    input:
+      type: keyboard
+      value: <username>
+  
+  - name: select_password_field
+    log: Selecionando o campo password
+    enabled: true
+    attempts: 1
+    input:
+      type: mouse
+      action: left_click
+      target: password_field.png
+  
+  - name: typing_password
+    input:
+      type: keyboard
+      value: <password>
+  -
+    name: check_metamask
+    enabled: true
+    attempts: 1
+    input:
+      type: mouse
+      action: right_click
+  -
+    name: enter_game_address
+    enabled: true
+    attempts: 1
+    input:
+      type: mouse
+      action: right_click
+  -
+    name: access_a
+    enabled: true
+    attempts: 1
+    input:
+      type: mouse
+      action: right_click
+  -
+    name: put_heroes_to_work
+    enabled: true
+    attempts: 1
+    input:
+      type: mouse
+      action: right_click
+  -
+    name: play_farming
+    attempts: 1
+    enabled: true
+    input:
+      type: mouse
+      action: right_click
