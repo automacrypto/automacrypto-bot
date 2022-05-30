@@ -10,7 +10,7 @@
     #
     # [pt_BR] Intervalo de tempo para verificar se há heróis disponíveis para trabalhar
     # Valor padrão (em minutos): 10
-    send_heroes_for_work: 25
+    send_heroes_for_work: 30
     
     # [en_US] Time interval to update heroes position in the map,
     # Default value (in minutes): 3
@@ -59,7 +59,7 @@
     #
     # [pt_BR] Intervalo de tempo entre movimentos
     # Valor padrão (em segundos): 1
-    interval_between_moviments: 0.5
+    interval_between_moviments: 0.1
 
   # [en_US] How confident the bot needs to be to click the buttons (values from 0 to 1. 0 is the minimum value, 1 is the maximum value)
   #
@@ -116,11 +116,11 @@
     all_btn_rest: 0.9
 
   home:
-    enable: False
+    enable: true
     # If bot is sending the wrong hero home, make this number bigger.
     # if bot is not sending any hero home make this number smaller.
-    hero_threshold: 1.0
-    home_button_threshold: 1.0
+    hero_threshold: 0.95
+    home_button_threshold: 0.95
 
 
   # [en_US]
@@ -135,14 +135,14 @@
   #
   # [pt_BR]
   # Valor padrão: 3
-  scroll_attemps: 5
+  scroll_attemps: 3
 
   # [en_US]
   # Default value: true
   #
   # [pt_BR]
   # Valor padrão: true
-  use_click_and_drag_instead_of_scroll: True
+  use_click_and_drag_instead_of_scroll: true
 
   # [en_US]
   # Indicates whether a window contains multiple windows, or false for maximized windows.
@@ -151,7 +151,7 @@
   # [pt_BR]
   # Indica se uma janela contém multiplas janelas, ou false para janelas maximizadas.
   # Valor padrão: true
-  split_window: True
+  split_window: false
 
   # [en_US]
   # Indicates whether to send the common heroes after the rare ones
@@ -160,7 +160,7 @@
   # [pt_BR]
   # Indica se é para enviar os herois comuns depois dos raros
   # Valor padrão: true
-  commum_last: True
+  commum_last: true
 
   # [en_US]
   # Indicates whether to send the heroes to sleep before refresh avoid bug
@@ -169,7 +169,7 @@
   # [pt_BR]
   # Indica se é para enviar os herois para dormir antes de atualizar para evitar bug
   # Valor padrão: true
-  sleep_all_heroes_before_refresh: True
+  sleep_all_heroes_before_refresh: true
 
   # [en_US]
   # Configures the zoom used in the browser so that it can fit more windows on a single monitor
@@ -180,7 +180,7 @@
   # Configura o zoom utilizado no navegador para que possa caber mais janelas em um unico monitor
   # Valores aceitos: 50 80 100
   # Valor padrão: 100
-  browser_zoom: 50
+  browser_zoom: 100
 
   # [en_US]
   # Default value: 200
@@ -204,13 +204,13 @@
   # green = seleciona os heróis com a barra de stamina verde (metade ou cheia)
   # full  = seleciona somente os heróis com a barra de stamina cheia
   # allBtn   = seleciona todos os heróis através do botão all
-  select_heroes_mode: "allBtn"
+  select_heroes_mode: "green"
 
   # [en_US] Option for save logs to a file (logs.txt)
-  # Default value: False
-  # Available options: False or True
+  # Default value: false
+  # Available options: false or true
   #
   # [pt_BR] Opção para salvar os logs em arquivo (logs.txt)
-  # Valor padrão : False
-  # Opções disponíveis: False ou True
-  save_log_to_file: True
+  # Valor padrão : false
+  # Opções disponíveis: false ou true
+  save_log_to_file: true

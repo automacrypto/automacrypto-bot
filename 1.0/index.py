@@ -44,6 +44,9 @@ ch = c['home']
 
 if not ch['enable']:
     print('>>---> Home feature disabled! ')
+else:
+    print('>>---> Home feature enabled! ')
+
 print('\n')
 
 pause = c['time_intervals']['interval_between_moviments']
@@ -114,6 +117,7 @@ def loadHeroesToSendHome():
     file_names = listdir('./'+selectTargetsFolder()+'/heroes-to-send-home')
     heroes = []
     for file in file_names:
+        print('>>---> hero ' + file + ' loaded!')
         path = './'+selectTargetsFolder()+'/heroes-to-send-home/' + file
         heroes.append(cv2.imread(path))
 
@@ -637,6 +641,7 @@ def sendHeroesHome():
         if not len (hero_positions) == 0:
             #TODO maybe pick up match with most wheight instead of first
             hero_position = hero_positions[0]
+            print('heroe_positions is ' + str(hero_position))
             heroes_positions.append(hero_position)
 
     n = len(heroes_positions)
@@ -711,7 +716,7 @@ def refreshHeroes(sendCommuns=False):
     hero_clicks = 0
 
     preventLoop = False
-    while(empty_scrolls_attempts >0):
+    while(empty_scrolls_attempts > 0):
         logger('------------------')
         logger('Loop scroll attempts, count: ' + str(empty_scrolls_attempts))
         logger('Loop total hero clicks, count: ' + str(total_hero_clicks))
@@ -891,9 +896,9 @@ def main():
                 last["login"+ str(idx)] = now
                 doLogin = True
 
-            if (now - last["rewards_follow"+ str(idx)] > addRandomness( t['rewards_follow_check'] * 60)):                
-                last["rewards_follow"+ str(idx)] = now
-                rewardsFollowPrint(str(idx))
+            # if (now - last["rewards_follow"+ str(idx)] > addRandomness( t['rewards_follow_check'] * 60)):                
+            #     last["rewards_follow"+ str(idx)] = now
+            #     rewardsFollowPrint(str(idx))
 
             logger(None, progress_indicator=True)
             sys.stdout.flush()
